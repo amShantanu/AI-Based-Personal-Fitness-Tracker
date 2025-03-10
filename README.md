@@ -1,23 +1,50 @@
-# 📦 Streamlit App Starter Kit 
-AI Based: Personal Fitness Tracker
+# Personal Fitness Tracker
 
-Description of the app ...
+An interactive web application for tracking personal fitness activities, providing personalized insights and AI-powered recommendations.
 
-## Demo App
+## Features
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://AI_FitnessTracker.streamlit.app/)
+- **User Profile Management**: Create and manage your fitness profile
+- **Activity Tracking**: Log and monitor your fitness activities
+- **Metrics Calculation**: Calculate BMI, BMR, and calorie expenditure
+- **Data Visualization**: View your progress through interactive charts
+- **AI-Powered Recommendations**: Get personalized workout and fitness recommendations
+- **Progress Analysis**: Receive feedback on your fitness journey
 
-## GitHub Codespaces
+## Installation
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+1. Clone this repository
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-## Section Heading
+## Usage
 
-This is filler text, please replace this with text for this section.
+1. Run the Streamlit application:
+   ```
+   streamlit run app.py
+   ```
+2. Open your web browser and navigate to the URL displayed in the terminal (typically http://localhost:8501)
 
-## Further Reading
+## Project Structure
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+- `app.py`: Main Streamlit application
+- `utils/`: Utility functions for data processing and calculations
+- `models/`: AI models for fitness recommendations
+- `data/`: Directory for storing user profiles and activity logs
+
+## AI Model Information
+
+The application uses machine learning models from Scikit-learn to provide personalized fitness recommendations. The models analyze your activity patterns, progress, and goals to suggest optimal workout routines and fitness strategies.
+
+## Dependencies
+
+- Python 3.x
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Plotly 
